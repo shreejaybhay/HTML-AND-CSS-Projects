@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  width: 650px;
+  height: 300px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap;
+}
+
+.imgcard {
+  background-color: #092c3e;
+  height: 265px;
+  width: 235px;
+  margin: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.imgcard img {
+  height: 255px;
+  width: 225px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 12px;
+}
+
+.detial {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 290px;
+  transform: translateY(-50);
+}
+
+.detial h2 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #092c3e;
+  margin-bottom: 10px;
+}
+.detial h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #092c3e;
+  margin-bottom: 10px;
+}
+.detial p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #092c3e;
+  word-spacing: 3px;
+}
+
+.btn {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 65%;
+  left: 290px;
+  transform: translateY(-50);
+}
+
+.btn button {
+  background-color: #092c3e;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  margin: 16px 0px 0px;
+  padding: 10px 18px;
+  text-align: center;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  transform: matrix(0.97, 0, 0, 0.97, 0, 0);
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  transform: scale(0.95);
+}
+
+/* toggle in label designing */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  background-color: #092c3e;
+  border-radius: 30px;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* After slide changes */
+.toggle:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  top: 7px;
+  left: 5px;
+  transition: all 0.5s;
+}
+
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+  left: 35px;
+  background-color: #092c3e;
+}
+
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+  background-color: white;
+}
+
+/* Checkbox vanished */
+.checkbox {
+  display: none;
+}
+
+.togbtn {
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  transform: translateY(-90%);
+}
+
+.togbtn button {
+  border-radius: 30px;
+}
+
+.dark-mode {
+  background-color: #092c3e;
+}
+
+#switch:hover body {
+  background-color: #092c3e;
+}
