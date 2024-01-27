@@ -8,5 +8,5 @@ Feel free to explore the different projects and use them as learning resources o
 To get started with any project, simply clone the repository and open the `index.html` file in your preferred web browser.
 
 ```bash
-git clone https://github.com/your-username/HTML-AND-CSS--Projects.git
+git clone https://github.com/your-username/html-and-css--projects.git
 cd HTML-AND-CSS--Projects
