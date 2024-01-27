@@ -9,4 +9,4 @@ To get started with any project, simply clone the repository and open the `index
 
 ```bash
 git clone https://github.com/your-username/html-and-css-projects.git
-cd HTML-AND-CSS--Projects
+cd html-and-css-projects
