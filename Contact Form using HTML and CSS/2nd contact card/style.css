@@ -93,7 +93,6 @@ border-top-left-radius: 15px;
 .main {
   width: 100%;
   height: 275px;
-  /* background-color: #3e3e3e; */
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

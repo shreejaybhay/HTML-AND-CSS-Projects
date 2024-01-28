@@ -18,7 +18,7 @@ body {
   background-color: black;
 }
 
-.conatiner {
+.container {
   width: 400px;
   height: 450px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -32,7 +32,7 @@ body {
   flex-direction: column;
 }
 
-.conatiner h2 {
+.container h2 {
   text-transform: uppercase;
   color: white;
   padding: 20px 0px;
