@@ -10,7 +10,7 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .cardbody {
@@ -77,4 +77,11 @@ body {
   bottom: 15px;
   left: 20px;
   color: #727272;
+}
+
+body h1 {
+  position: absolute;
+  top: 25px;
+  color: #fff;
+  font-size: 46px;
 }
