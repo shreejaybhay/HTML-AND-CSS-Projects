@@ -11,12 +11,15 @@ body {
   background: linear-gradient(45deg, #e3dbf6, #a99bf9);
   display: flex;
   align-items: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .container {
   width: 350px;
   height: 515px;
   margin: auto;
+  perspective: 900px;
 }
 
 .blackgred {
