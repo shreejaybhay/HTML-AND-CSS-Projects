@@ -142,6 +142,7 @@ p {
 .secondgrid .logininfo .inputbox a {
   text-decoration: none;
   color: #555;
+  pointer-events: none;
 }
 
 .secondgrid .logininfo .signupbtn button {
